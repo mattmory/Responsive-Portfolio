@@ -240,6 +240,10 @@ input[type=submit] {
     background-color: blue;
   }
   */
+  /* Padding to move link menu on screen for shrinked screen */
+  nav {
+    padding-right: 20px;
+  }
 
   .container {
     width: 100%;
@@ -257,6 +261,11 @@ input[type=submit] {
     background-color: orange;
   }
   */
+  /* Float the nav item left on portrait mobile screen */
+nav {
+  float: left;
+}
+
   .container {
     width: 100%;
     max-width: 640px; 
